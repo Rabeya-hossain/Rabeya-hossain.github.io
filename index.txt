@@ -1,24 +1,21 @@
-vCard - Personal Portfolio
+Rabeya Hossain
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Rabeya Hossain
+Rabeya Hossain
+
 
 Show Contacts
 
 Email
-richard@example.com
+rabeyaeshita00@gmail.com
 
 Phone
-+1 (213) 352-2795
+01975566338
 
 Birthday
-June 23, 1982
-
-Location
-Sacramento, California, USA
+October 24, 2000
 
 # navbar
 
