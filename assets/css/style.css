@@ -1,6 +1,6 @@
 /* Academic profile — buildless and ready for GitHub Pages. */
 :root {
-  --background: #faf9f6;
+  --background: #ffffff;
   --paper: #ffffff;
   --text: #292b30;
   --muted: #65666a;
@@ -14,7 +14,7 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 110px; }
-body { margin: 0; background: var(--background); color: var(--text); font-family: var(--sans); font-size: 15px; line-height: 1.75; -webkit-font-smoothing: antialiased; }
+body { margin: 0; background: var(--background); color: var(--text); font-family: var(--sans); font-size: 14px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
 a { color: var(--accent); text-decoration: none; text-underline-offset: 4px; }
 a:hover { color: var(--accent-hover); text-decoration: underline; }
 a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; border-radius: 2px; }
@@ -27,20 +27,20 @@ strong { font-weight: 600; }
 .skip-link:focus { top: 12px; }
 
 .site-header { position: sticky; z-index: 10; top: 0; background: var(--background); border-top: 3px solid var(--accent); border-bottom: 1px solid var(--line); }
-.header-inner { max-width: 1100px; min-height: 78px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
-.wordmark { color: var(--text); font-family: var(--serif); font-size: 28px; font-weight: 700; letter-spacing: -1px; line-height: 1; }
+.header-inner { max-width: 1040px; min-height: 58px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
+.wordmark { color: var(--text); font-family: var(--serif); font-size: 22px; font-weight: 700; letter-spacing: -1px; line-height: 1; }
 .wordmark span { color: var(--accent); }
 .wordmark:hover { text-decoration: none; }
 nav { display: flex; align-items: center; gap: 29px; }
-nav a { position: relative; display: block; padding: 26px 0; color: var(--muted); font-size: 13px; font-weight: 500; }
+nav a { position: relative; display: block; padding: 17px 0; color: var(--muted); font-size: 12px; font-weight: 500; }
 nav a:hover { color: var(--accent); text-decoration: none; }
 nav a[aria-current] { color: var(--accent); }
 nav a[aria-current]::after { position: absolute; bottom: -1px; left: 0; right: 0; height: 2px; background: var(--accent); content: ''; }
 
-.page-layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 76px; max-width: 1100px; margin: 60px auto 0; }
-.profile { position: sticky; top: 126px; align-self: start; }
-.profile-photo { width: 220px; height: 263px; object-fit: cover; object-position: center 40%; border-radius: 4px; }
-.profile-name { margin-top: 20px; font-family: var(--serif); font-size: 23px; line-height: 1.3; }
+.page-layout { display: grid; grid-template-columns: 190px minmax(0, 1fr); gap: 42px; max-width: 1040px; margin: 32px auto 0; }
+.profile { position: sticky; top: 92px; align-self: start; }
+.profile-photo { width: 120px; height: 150px; object-fit: cover; object-position: center 40%; border-radius: 2px; }
+.profile-name { margin-top: 14px; font-family: var(--sans); font-size: 16px; font-weight: 600; line-height: 1.3; }
 .profile-role { margin-top: 9px; font-size: 13px; line-height: 1.6; }
 .affiliation { display: inline-block; font-size: 13px; }
 .location { margin-top: 3px; color: var(--muted); font-size: 12px; }
@@ -53,23 +53,23 @@ nav a[aria-current]::after { position: absolute; bottom: -1px; left: 0; right: 0
 .profile-note { margin-top: 27px; max-width: 190px; color: var(--muted); font-family: var(--serif); font-size: 14px; font-style: italic; line-height: 1.65; }
 main { min-width: 0; }
 .eyebrow { margin: 0 0 12px; color: var(--muted); font-size: 10px; font-weight: 600; letter-spacing: 1.7px; text-transform: uppercase; }
-h1 { font-family: var(--serif); font-size: clamp(36px, 4vw, 50px); font-weight: 400; line-height: 1.15; letter-spacing: -1.6px; }
+h1 { font-family: var(--sans); font-size: 28px; font-weight: 600; line-height: 1.25; letter-spacing: -.5px; }
 .name-period { color: var(--accent); }
-.intro-line { margin-top: 12px; color: var(--muted); font-size: 15px; }
+.intro-line { margin-top: 8px; color: var(--muted); font-size: 13px; }
 .intro-line > span:first-child { margin: 0 9px; color: #b0aaa3; }
 .pronouns { font-size: 12px; }
-.bio { margin-top: 27px; }
-.bio p + p { margin-top: 15px; }
+.bio { margin-top: 18px; }
+.bio p + p { margin-top: 12px; }
 .bio .personal-note { color: var(--muted); }
-.research-interests { margin-top: 27px; padding: 16px 0 0; border-top: 1px solid var(--line); }
+.research-interests { margin-top: 20px; padding: 12px 0 0; border-top: 1px solid var(--line); }
 .small-label { color: var(--muted); font-size: 10px; font-weight: 600; letter-spacing: 1.1px; text-transform: uppercase; }
 .research-interests ul { display: flex; flex-wrap: wrap; column-gap: 21px; row-gap: 4px; margin-top: 7px; list-style: none; }
 .research-interests li { position: relative; font-size: 12px; }
 .research-interests li + li::before { position: absolute; left: -12px; color: #b8b1a9; content: '·'; }
 
-.content-section { margin-top: 48px; }
+.content-section { margin-top: 32px; }
 .section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--line); margin-bottom: 21px; }
-h2 { font-family: var(--serif); font-size: 27px; font-weight: 400; line-height: 1.3; letter-spacing: -.5px; }
+h2 { font-family: var(--sans); font-size: 19px; font-weight: 600; line-height: 1.4; letter-spacing: 0; }
 .section-caption { color: var(--muted); font-size: 11px; }
 .section-link { flex-shrink: 0; font-size: 11px; }
 .news-list { display: grid; gap: 13px; list-style: none; }
@@ -83,7 +83,7 @@ h2 { font-family: var(--serif); font-size: 27px; font-weight: 400; line-height: 
 .venue-label, .status-label { display: inline-block; padding: 2px 8px; background: var(--accent-soft); color: var(--accent); border-radius: 2px; font-size: 10px; font-weight: 600; letter-spacing: .2px; }
 .status-label { background: #eeeae0; color: #665737; }
 .publication-type { color: var(--muted); font-size: 10px; }
-.publication h3 { font-size: 16px; font-weight: 600; line-height: 1.6; }
+.publication h3 { font-size: 14px; font-weight: 600; line-height: 1.6; }
 .publication h3 a { color: var(--text); }
 .publication h3 a:hover { color: var(--accent); }
 .authors { margin-top: 9px; color: var(--muted); font-size: 12px; line-height: 1.9; }
@@ -91,7 +91,7 @@ h2 { font-family: var(--serif); font-size: 27px; font-weight: 400; line-height: 
 .publication-description { margin-top: 9px; color: var(--muted); font-size: 13px; }
 .publication-links { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 12px; font-size: 11px; }
 .publication-links span { margin-left: 3px; }
-.earlier-research { margin-top: 5px; padding: 19px 22px; border-left: 2px solid #ceb5bb; background: #f1efeb; }
+.earlier-research { margin-top: 5px; padding: 14px 18px; border-left: 2px solid #ceb5bb; background: var(--paper); }
 .earlier-research h3 { margin-top: 8px; font-size: 14px; line-height: 1.65; font-weight: 500; }
 .earlier-research p { margin-top: 8px; color: var(--muted); font-size: 12px; }
 
@@ -131,13 +131,12 @@ h2 { font-family: var(--serif); font-size: 27px; font-weight: 400; line-height: 
 
 @media (max-width: 1200px) {
   .header-inner, .page-layout { margin-left: 40px; margin-right: 40px; }
-  .page-layout { gap: 50px; }
+  .page-layout { gap: 36px; }
 }
 @media (max-width: 900px) {
   .header-inner, .page-layout { margin-left: 28px; margin-right: 28px; }
-  .page-layout { grid-template-columns: 185px minmax(0, 1fr); gap: 35px; margin-top: 44px; }
-  .profile-photo { width: 185px; height: 230px; }
-  .profile-name { font-size: 22px; }
+  .page-layout { grid-template-columns: 175px minmax(0, 1fr); gap: 30px; margin-top: 30px; }
+  .profile-name { font-size: 16px; }
   .profile-links a { font-size: 11px; gap: 7px; }
   nav { gap: 22px; }
   .section-caption { display: none; }
@@ -148,14 +147,14 @@ h2 { font-family: var(--serif); font-size: 27px; font-weight: 400; line-height: 
   html { scroll-padding-top: 110px; }
   body { font-size: 14px; }
   .header-inner { min-height: 0; margin: 0 22px; padding-top: 14px; flex-direction: column; align-items: stretch; gap: 0; }
-  .wordmark { width: fit-content; font-size: 25px; flex-shrink: 0; }
+  .wordmark { width: fit-content; font-size: 22px; flex-shrink: 0; }
   nav { justify-content: space-between; gap: 10px; overflow-x: auto; scrollbar-width: none; }
   nav::-webkit-scrollbar { display: none; }
   nav a { flex-shrink: 0; padding: 13px 0; font-size: 11px; }
-  .page-layout { display: block; margin: 30px 24px 0; }
-  .profile { position: static; display: grid; grid-template-columns: 125px minmax(0, 1fr); gap: 24px; padding-bottom: 29px; margin-bottom: 30px; border-bottom: 1px solid var(--line); }
-  .profile-photo { width: 125px; height: 160px; }
-  .profile-name { margin-top: 0; font-size: 21px; }
+  .page-layout { display: block; margin: 24px 24px 0; }
+  .profile { position: static; display: grid; grid-template-columns: 88px minmax(0, 1fr); gap: 18px; padding-bottom: 20px; margin-bottom: 24px; border-bottom: 1px solid var(--line); }
+  .profile-photo { width: 88px; height: 110px; }
+  .profile-name { margin-top: 0; font-size: 16px; }
   .profile-role { margin-top: 6px; font-size: 11px; }
   .affiliation { font-size: 12px; }
   .location { font-size: 10px; }
@@ -165,17 +164,17 @@ h2 { font-family: var(--serif); font-size: 27px; font-weight: 400; line-height: 
   .profile-links svg { width: 13px; height: 13px; }
   .external-arrow, .profile-note { display: none; }
   .eyebrow { font-size: 9px; letter-spacing: 1.3px; }
-  h1 { font-size: 40px; }
-  .intro-line { font-size: 14px; }
-  .bio { margin-top: 22px; }
+  h1 { font-size: 26px; }
+  .intro-line { font-size: 13px; }
+  .bio { margin-top: 18px; }
   .research-interests ul { column-gap: 19px; }
   .research-interests li { font-size: 11px; }
-  .content-section { margin-top: 37px; }
-  h2 { font-size: 25px; }
+  .content-section { margin-top: 28px; }
+  h2 { font-size: 19px; }
   .section-heading { margin-bottom: 19px; }
   .publication { grid-template-columns: 1fr; gap: 10px; }
   .publication-year { font-size: 11px; }
-  .publication h3 { font-size: 15px; }
+  .publication h3 { font-size: 14px; }
   .publication-meta { margin-bottom: 8px; }
   .earlier-research { padding: 16px 18px; }
   .dated-entry { grid-template-columns: 1fr; gap: 4px; }
@@ -187,12 +186,8 @@ h2 { font-family: var(--serif); font-size: 27px; font-weight: 400; line-height: 
   .header-inner { margin: 0 18px; }
   nav a { font-size: 10px; }
   .page-layout { margin-left: 20px; margin-right: 20px; }
-  .profile { grid-template-columns: 104px minmax(0, 1fr); gap: 18px; }
-  .profile-photo { width: 104px; height: 151px; }
-  .profile-name { font-size: 19px; }
   .profile-links { column-gap: 11px; }
-  h1 { font-size: 35px; }
-  h2 { font-size: 23px; }
+  h1 { font-size: 25px; }
   .project-grid { grid-template-columns: 1fr; gap: 20px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
@@ -205,8 +200,8 @@ h2 { font-family: var(--serif); font-size: 27px; font-weight: 400; line-height: 
   .profile-name { margin-top: 0; }
   .profile-links { display: flex; gap: 15px; margin-top: 10px; padding: 0; border: 0; }
   .profile-links svg, .external-arrow { display: none; }
-  h1 { font-size: 32px; }
-  h2 { font-size: 22px; }
+  h1 { font-size: 26px; }
+  h2 { font-size: 19px; }
   .content-section { margin-top: 28px; }
   .publication, .dated-entry, .project, .recognition-list li { break-inside: avoid; }
   a { color: inherit; }
