@@ -1,942 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rabeya Hossain</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
+  <meta name="description" content="Rabeya Hossain is a Computer Science PhD student at the University of Utah, advised by El Kindi Rezig. Research, publications, teaching, and selected projects.">
+  <meta name="theme-color" content="#faf9f6">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rabeya Hossain | University of Utah">
+  <meta property="og:description" content="Computer Science PhD student. Research in data quality, data preprocessing, and AI for scientific data.">
+  <meta property="og:url" content="https://rabeya-hossain.github.io/">
+  <meta property="og:image" content="https://rabeya-hossain.github.io/assets/images/pagePhoto.jpg">
+  <link rel="canonical" href="https://rabeya-hossain.github.io/">
+  <link rel="icon" href="./assets/images/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="./assets/js/script.js" defer></script>
+  <title>Rabeya Hossain | University of Utah</title>
 </head>
+<body id="top">
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#top" aria-label="Rabeya Hossain, back to top">RH<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#about" aria-current="location">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#background">Background</a>
+        <a href="#projects">Projects</a>
+        <a href="#recognition">Recognition</a>
+      </nav>
+    </div>
+  </header>
 
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/pagePhoto.jpg" alt="Richard hanrick" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Rabeya Hossain">Rabeya Hossain</h1>
+  <div class="page-layout">
+    <aside class="profile" aria-label="Profile and contact information">
+      <img class="profile-photo" src="./assets/images/pagePhoto.jpg" alt="Rabeya Hossain" width="960" height="1280" fetchpriority="high">
+      <div class="profile-details">
+        <p class="profile-name">Rabeya Hossain</p>
+        <p class="profile-role">PhD student in Computer Science</p>
+        <a class="affiliation" href="https://www.cs.utah.edu/">University of Utah</a>
+        <p class="location">Salt Lake City, Utah</p>
+        <div class="profile-links">
+          <a class="email-link" href="mailto:rabeya.hossain@utah.edu"><svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg><span>rabeya.hossain@utah.edu</span></a>
+          <a href="https://github.com/Rabeya-hossain"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 19c-4.3 1.3-4.3-2-6-2m12 5v-3.9c0-1.1-.4-1.7-.8-2 2.7-.3 5.5-1.3 5.5-6a4.7 4.7 0 0 0-1.3-3.3 4.3 4.3 0 0 0-.1-3.3S17.3 3.2 15 4.7a12 12 0 0 0-6 0C6.7 3.2 5.7 3.5 5.7 3.5a4.3 4.3 0 0 0-.1 3.3A4.7 4.7 0 0 0 4.3 10c0 4.7 2.8 5.7 5.5 6-.4.3-.8 1.1-.8 2V22"/></svg><span>GitHub</span><span class="external-arrow" aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/in/rabeya-hossain-94499531b/"><svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 10v7m0-10v.1M11 17v-7m0 3a3 3 0 0 1 6 0v4"/></svg><span>LinkedIn</span><span class="external-arrow" aria-hidden="true">↗</span></a>
         </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
+        <p class="profile-note">Data, discovery, and a little curiosity.</p>
       </div>
-      <ul class="social-list">
-        
-        <li class="social-item">
-            <a href=https://www.linkedin.com/in/rabeya-hossain-94499531b/ class="social-link" target="_blank" rel="noopener noreferrer">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-    
-
-    
-        <li class="social-item">
-            <a href=https://github.com/Rabeya-hossain class="social-link" target="_blank" rel="noopener noreferrer">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-        </ul>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:rabeya.hossain@utah.edu" class="contact-link">rabeya.hossain@utah.edu</a>
-            </div>
-
-          </li>
-
-          
-
-          
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Salt Lake City, Utah</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-      </div>
-
     </aside>
 
+    <main id="main-content">
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <p class="eyebrow">Computer Science · University of Utah</p>
+        <h1 id="about-title">Rabeya Hossain<span class="name-period">.</span></h1>
+        <p class="intro-line">PhD student <span aria-hidden="true">/</span> <span class="pronouns">she/her</span></p>
+        <div class="bio">
+          <p>I’m a PhD student in Computer Science at the <a href="https://www.utah.edu/">University of Utah</a>, advised by <a href="https://elkindi.github.io/">Prof. El Kindi Rezig</a>. My current research is part of the CosmicAI project.</p>
+          <p>My work explores data quality and data preprocessing, including discovering label outliers in radio astronomy signals and parameter search for preprocessing pipelines.</p>
+          <p>Previously, I received my B.Sc. in Computer Science and Engineering from <a href="https://www.buet.ac.bd/">Bangladesh University of Engineering and Technology (BUET)</a>. My undergraduate research focused on instruction tuning for general-purpose Bengali language tasks. My teaching experience includes computer science courses at United International University.</p>
+          <p class="personal-note">Outside research, I enjoy traveling, movies and series, and a good problem to solve.</p>
+        </div>
+        <div class="research-interests" aria-label="Research interests">
+          <span class="small-label">Research interests</span>
+          <ul><li>Data quality</li><li>Data preprocessing</li><li>AI for scientific data</li></ul>
+        </div>
+      </section>
 
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link  " data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Projects</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Achievements</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Research</button>
-          </li>
-
+      <section class="content-section news-section" id="news" aria-labelledby="news-title">
+        <div class="section-heading"><h2 id="news-title">News &amp; updates</h2><span class="section-caption">A few recent milestones</span></div>
+        <ul class="news-list">
+          <li><time datetime="2026">2026</time><p><a href="#labelscope">LabelScope</a> is a demonstration paper at <strong>VLDB 2026</strong>.</p></li>
+          <li><time datetime="2025">2025</time><p>Started my PhD in Computer Science at the <strong>University of Utah</strong>.</p></li>
         </ul>
+      </section>
 
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-           I’m Rabeya Hossain (she/her), a PhD student in Computer Science at the University of Utah, 
-            under the supervision of,El Kindi Rezig. My current research focuses on the CosmicAI project.
-          </p>
-          <p>
-            My undergraduate thesis focused on fine-tuning a model for general-purpose Bengali language tasks.
-             We collected a large dataset and trained our model to achieve strong results.
-          </p>
-           <p>
-            During my undergraduate years, I maintained a balance between academics and extracurricular 
-            activities, earning the Dean's List for academic excellence. I also participated in programming 
-            competitions at both national and sub-continental levels. I have a deep passion for problem-solving 
-            and always immerse myself fully in the process.
-           </p> 
-           <p>  
-            Outside of academics, I love traveling, watching movies and series, 
-            and strive to live by the principle of kindness.
-          </p>
-        </section>
-        
-          <div class="modal-container" data-modal-container>
-
-            <div class="overlay" data-overlay></div>
-      
-            <section class="testimonials-modal">
-              <button class="modal-close-btn" data-modal-close-btn>
-                <ion-icon name="close-outline"></ion-icon>
-              </button>
-            </section>
-      
+      <section class="content-section" id="publications" aria-labelledby="publications-title">
+        <div class="section-heading"><h2 id="publications-title">Publications &amp; manuscripts</h2></div>
+        <!-- Add future publications as another article. Only include confirmed authors, venues, and links. -->
+        <article class="publication" id="labelscope" aria-labelledby="labelscope-title">
+          <div class="publication-year">2026</div>
+          <div class="publication-content">
+            <div class="publication-meta"><span class="venue-label">VLDB 2026</span><span class="publication-type">Demonstration</span></div>
+            <h3 id="labelscope-title"><a href="https://vldb.org/2026/demonstrations.html">LabelScope: Context-Aware Discovery of Label Outliers in Radio Astronomy Signals</a></h3>
+            <p class="authors"><strong>Rabeya Hossain</strong>, Brian Mason, Ryan Loomis, Jeff Phillips, El Kindi Rezig</p>
+            <p class="publication-description">An interactive system for discovering label outliers in radio astronomy signals.</p>
+            <div class="publication-links"><a href="https://dblp.org/rec/journals/pvldb/HossainMLPR26.html">Publication record <span aria-hidden="true">↗</span></a><a href="https://vldb.org/2026/demonstrations.html">Conference listing <span aria-hidden="true">↗</span></a></div>
           </div>
-
         </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
+        <article class="publication" id="preptune" aria-labelledby="preptune-title">
+          <div class="publication-year">Ongoing</div>
+          <div class="publication-content">
+            <div class="publication-meta"><span class="status-label">Under revision</span><span class="publication-type">Manuscript</span></div>
+            <h3 id="preptune-title">PrepTune: Data-Aware Parameter Search for Black-Box Data Preprocessing Pipeline Operators</h3>
+            <!-- PrepTune: add the confirmed author list, venue, and public paper URL when available. -->
           </div>
-
-          <ol class="timeline-list">
-             <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">PhD in Computer Science</h4>
-              <P class="h4 timeline-item-title"> University of Utah
-              </P>
-
-              <span>2025-present</span>
-              
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">B.Sc in Computer Science and Engineering</h4>
-              <P class="h4 timeline-item-title"> Bangladesh University of Engineering and Technology
-              </P>
-
-              <span>April 2019 - June 2024</span>
-              <p class="h4 timeline-item-title">CGPA: 3.88/4.00</p>
-              <div class="multicol-list">
-                <div class="blog-text" >Notable Courses</div>
-                <ul>
-                  
-                    <li><p class="timeline-text">CSE 305 - Computer Architecture</p></li>
-                  
-                    <li><p class="timeline-text">CSE 307 - Software Engineering</p></li>
-                  
-                    <li><p class="timeline-text">CSE 309 - Compiler Design</p></li>
-                  
-                    <li><p class="timeline-text">CSE 313 - Operating Systems</p></li>
-                  
-                    <li><p class="timeline-text">CSE 317 - Artificial Intelligence</p></li>
-                  
-                    <li><p class="timeline-text">CSE 321 - Computer Networks</p></li>
-                  
-                    <li><p class="timeline-text">CSE 405 - Computer Security</p></li>
-                  
-                    <li><p class="timeline-text">CSE 409 - Computer Graphics</p></li>
-                  
-                    <li><p class="timeline-text">CSE 463 - Introduction to Bioinformatics</p></li>
-                  
-                    <li><p class="timeline-text">CSE 471 - Machine Learning</p></li>
-                  
-                    <li><p class="timeline-text">MATH 245 - Statistics and Probability</p></li>
-                  
-                    <li><p class="timeline-text">MATH 247 - Linear Algebra</p></li>
-                  
-                </ul>
-              </div>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Higher Secondary School Certificate</h4>
-              <P class="h4 timeline-item-title"> Holy Cross College
-              </P>
-
-              <span>2016-2018</span>
-              <p class="h4 timeline-item-title">GPA: 5.00/5.00</p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Secondary School Certificate</h4>
-              <P class="h4 timeline-item-title"> A.K High School
-              </P>
-
-              <span>2008-2016</span>
-              <p class="h4 timeline-item-title">GPA: 5.00/5.00</p>
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Work Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Lecturer (Full-Time)</h4>
-              <P class="h4 timeline-item-title">Department of Computer Science and Engineering ,
-                United International University
-              </P>
-
-              <span>July 2024 - Presnt</span>
-              <div class="multicol-list">
-                <div class="blog-text" >Course Instructor</div>
-                <ul>
-                  
-                    <li><p class="timeline-text">(Summer 2024) CSE 221: Data Structures and Algorithms</p></li>
-                  
-                    <li><p class="timeline-text">CSE 409 - Computer Graphics</p></li>
-                  
-                    <li><p class="timeline-text">(Summer 2024) CSE 341: System Analysis and Design</p></li>
-                  
-                    <li><p class="timeline-text">(Summer 2024) CSE 381: Artificial Intelligence</p></li>
-                  
-                    <li><p class="timeline-text">(Summer 2024) CSE 381: Artificial Intelligence Sessional</p></li>
-                  
-                </ul>
-              </div>
-            </li>
-          </ol>
-
-        </section>
-          <section class="timeline">
-
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-  
-              <h3 class="h3">Technical Skills</h3>
-            </div>
-  
-            <ol class="timeline-list">
-  
-              <li class="timeline-item">
-  
-                <h4 class="h4 timeline-item-title">Programming Languages</h4>
-                <P class="h4 timeline-item-title">C/C++, Python, Java, Bash, x86 Assembly, SQL, Bison/Flex
-                </P>
-              </li>
-
-              <li class="timeline-item">
-  
-                <h4 class="h4 timeline-item-title">Frameworks</h4>
-                <P class="h4 timeline-item-title"> Nodejs, ReactJS, openGL, JavaFX
-                </P>
-              </li>
-              <li class="timeline-item">
-  
-                <h4 class="h4 timeline-item-title">Tools</h4>
-                <P class="h4 timeline-item-title"> Git
-                </P>
-              </li>
-            </ol>
-  
-          </section>
-      </article>
-
-
-
-
-
-      <!--
-        - #PROJECT
-      -->
-
-      <article class="projects" data-page="projects">
-
-         <header>
-          <h2 class="h2 article-title">Projects</h2>
-        </header>
-        <section class="blog-posts">
-          <ul class="blog-posts-list">
-            
-            
-              <li class="blog-post-item">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/project-1.jpg" alt="Algorithm Visualizer" loading="lazy">
-                </figure>
-                  <div class="blog-content">
-                    <div class="blog-header">
-                      <h3 class="h3 blog-item-title">TourOn</h3>
-                      <div class="project-linkes">
-                        <a href="https://github.com/Rabeya-hossain/TourOn-Project-2-2" target="_blank" rel="noopener noreferrer">
-                          <ion-icon name="logo-github"></ion-icon>
-                        </a>
-                        
-                      </div>
-                    </div>
-                    <div class="">
-                      🏷️
-                        
-                          <code class="tags">Nodejs</code>
-                          <code class="tags">React</code>
-                          <code class="tags">Oracle</code>
-                          
-                        
-                      
-                        <span class="dot"></span>
-                         <!-- <br/> -->
-                         
-                      <time class="blog-text" datetime="2021">2022</time>
-                    </div>
-                     <hr/> 
-    
-                    <p class="blog-text">
-                      TourOn is a user-friendly, cost-saving hotel booking and management system.
-                       </p>
-                  </div>
-              </li>
-            
-            
-              <li class="blog-post-item">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/RayTracing.jfif" alt="Ray tracing" loading="lazy">
-                </figure>
-                  <div class="blog-content">
-                    <div class="blog-header">
-                      <h3 class="h3 blog-item-title">Ray Tracing</h3>
-                      <div class="project-linkes">
-                        <a href="https://github.com/Rabeya-hossain/RayTracing" target="_blank" rel="noopener noreferrer">
-                          <ion-icon name="logo-github"></ion-icon>
-                        </a>
-                        
-                      </div>
-                    </div>
-                    <div class="">
-                      🏷️
-                        
-                          <code class="tags">C++</code>
-                          <code class="tags">openGL</code>
-                      
-                        <span class="dot"></span>
-                         <!-- <br/> -->
-                         
-                      <time class="blog-text" datetime="2023">2023</time>
-                    </div>
-                     <hr/> 
-    
-                    <p class="blog-text">
-                      Followed by implementation of the raster based graphics pipeline, implemented ray tracing using OpenGL.
-                    </p>
-                  </div>
-              </li>
-
-              <li class="blog-post-item">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/c-compiling.png" alt="C Compiler" loading="lazy">
-                </figure>
-                  <div class="blog-content">
-                    <div class="blog-header">
-                      <h3 class="h3 blog-item-title">C Compiler</h3>
-                      <div class="project-linkes">
-                        <a href="https://github.com/Rabeya-hossain/Compiler-310" target="_blank" rel="noopener noreferrer">
-                          <ion-icon name="logo-github"></ion-icon>
-                        </a>
-                        
-                      </div>
-                    </div>
-                    <div class="">
-                      🏷️
-                        
-                          <code class="tags">Bison</code>
-                          
-                        
-                          <code class="tags">Yacc</code>
-                          
-                        
-                          <code class="tags">C</code>
-                          
-                        
-                      
-                        <span class="dot"></span>
-                         <!-- <br/> -->
-                         
-                      <time class="blog-text" datetime="2023">2022</time>
-                    </div>
-                     <hr/> 
-    
-                    <p class="blog-text">
-                      Built a compiler from scratch with modern optimizations for a subset of C language.
-                    </p>
-                  </div>
-              </li>
-
-              <li class="blog-post-item">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/security.avif" alt="C Compiler" loading="lazy">
-                </figure>
-                  <div class="blog-content">
-                    <div class="blog-header">
-                      <h3 class="h3 blog-item-title">Security Lab(Cryptography, Firewall, Malware Attack) </h3>
-                      <div class="project-linkes">
-                        <a href="https://github.com/Rabeya-hossain/SecurityLab" target="_blank" rel="noopener noreferrer">
-                          <ion-icon name="logo-github"></ion-icon>
-                        </a>
-                        
-                      </div>
-                    </div>
-                    <div class="">
-                      🏷️
-                        
-                          <code class="tags">Docker</code>
-                              
-                        <span class="dot"></span>
-                         <!-- <br/> -->
-                         
-                      <time class="blog-text" datetime="2023">2023</time>
-                    </div>
-                     <hr/> 
-    
-                    <p class="blog-text">
-                      Implemented various cryptographic algorithms such as AES, RSA and conducted various hands on experiments to learn security concepts such as buffer overflow, CSRF, XSS or SQLI attacks, malware and firewalls.
-                    </p>
-                  </div>
-              </li>
-
-              <li class="blog-post-item">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/Neural.png" alt="C Compiler" loading="lazy">
-                </figure>
-                  <div class="blog-content">
-                    <div class="blog-header">
-                      <h3 class="h3 blog-item-title">Neural Network From Scratch </h3>
-                      <div class="project-linkes">
-                        <a href="https://github.com/Rabeya-hossain/ML_Lab/tree/main/Neural/1805029" target="_blank" rel="noopener noreferrer">
-                          <ion-icon name="logo-github"></ion-icon>
-                        </a>
-                        
-                      </div>
-                    </div>
-                    <div class="">
-                      🏷️
-                        
-                          <code class="tags">Python</code>
-                              
-                        <span class="dot"></span>
-                         <!-- <br/> -->
-                         
-                      <time class="blog-text" datetime="2023">2024</time>
-                    </div>
-                     <hr/> 
-    
-                    <p class="blog-text">
-                      Implemented a Convolutional Neural Network from scratch using only Python and Numpy.
-                    </p>
-                  </div>
-              </li>
-
-
-              <li class="blog-post-item">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/xv6.png" alt="C Compiler" loading="lazy">
-                </figure>
-                  <div class="blog-content">
-                    <div class="blog-header">
-                      <h3 class="h3 blog-item-title">xv6 Operating System </h3>
-                      <div class="project-linkes">
-                        <a href="https://github.com/Rabeya-hossain/OS_xv6" target="_blank" rel="noopener noreferrer">
-                          <ion-icon name="logo-github"></ion-icon>
-                        </a>
-                        
-                      </div>
-                    </div>
-                    <div class="">
-                      🏷️
-                        
-                          <code class="tags">xv6</code>
-                              
-                        <span class="dot"></span>
-                         <!-- <br/> -->
-                         
-                      <time class="blog-text" datetime="2023">2024</time>
-                    </div>
-                     <hr/> 
-    
-                    <p class="blog-text">
-                      Developed the paging framework of xv6 operating system, as well as implementing many other functionalities of the operating system.
-                    </p>
-                  </div>
-              </li>
-          </ul>
-    
-        </section>
-        
-
-      </article>
-
-
-
-      <!--
-        - #ACHIEVEMENTS
-      -->
-
-      <article class="achievements" data-page="achievements">
-
-        <header>
-          <h2 class="h2 article-title">Achievements</h2>
-        </header>      
-            <section class="timeline">
-                <div class="title-wrapper">
-                  <div class="icon-box">
-                    <ion-icon name="trophy-outline"></ion-icon>
-                  </div>
-                  <h3 class="h3">Programming Competitions</h3>
-                </div>
-                <ol class="timeline-list">
-                    
-                        <li class="timeline-item">
-                            <div class="education-header">
-                                <h4 class="h4 timeline-item-title">ICPC Asia West Continent Final Contest 2023</h4>
-                                <span>Dhaka, Bangladesh</span>
-                            </div>
-                            <div class="education-header">
-                                <span>Ranked 44th</span>
-                                <span>March 2024</span>
-                            </div>
-                            <p class="timeline-text">
-                                
-                            </p>
-                        </li>
-                    
-                        <li class="timeline-item">
-                            <div class="education-header">
-                                <h4 class="h4 timeline-item-title">ICPC Asia Dhaka Regional Contest 2023</h4>
-                                <span>Dhaka, Bangladesh</span>
-                            </div>
-                            <div class="education-header">
-                                <span>Ranked 5th</span>
-                                <span>October 2023</span>
-                            </div>
-                            <p class="timeline-text">
-                                
-                            </p>
-                        </li>
-
-                        <li class="timeline-item">
-                          <div class="education-header">
-                              <h4 class="h4 timeline-item-title">Google Code Jam to I/O for Women 2022</h4>
-                              <span>Online</span>
-                          </div>
-                          <div class="education-header">
-                              <span>Ranked among top 150 candidates and got stipends</span>
-                              <span>March 2022</span>
-                          </div>
-                          <p class="timeline-text">
-                              
-                          </p>
-                      </li>
-                    
-                        <li class="timeline-item">
-                            <div class="education-header">
-                                <h4 class="h4 timeline-item-title">National Girl's Programming Contest (Bangladesh) 2022</h4>
-                                <span>Dhaka, Bangladesh</span>
-                            </div>
-                            <div class="education-header">
-                                <span>Champion</span>
-                                <span>February 2023</span>
-                            </div>
-                            <p class="timeline-text">
-                                
-                            </p>
-                        </li>
-
-                        <li class="timeline-item">
-                          <div class="education-header">
-                              <h4 class="h4 timeline-item-title">National Girl's Programming Contest (Bangladesh) 2021</h4>
-                              <span>Dhaka, Bangladesh</span>
-                          </div>
-                          <div class="education-header">
-                              <span>Champion</span>
-                              <span>July 2022</span>
-                          </div>
-                          <p class="timeline-text">
-                              
-                          </p>
-                      </li>
-                    
-                        <li class="timeline-item">
-                            <div class="education-header">
-                                <h4 class="h4 timeline-item-title">AUST IUPC 2022</h4>
-                                <span>Dhaka, Bangladesh</span>
-                            </div>
-                            <div class="education-header">
-                                <span>Ranked 7th</span>
-                                <span>June 2022</span>
-                            </div>
-                            <p class="timeline-text">
-                                
-                            </p>
-                        </li>
-                    
-                        <li class="timeline-item">
-                            <div class="education-header">
-                                <h4 class="h4 timeline-item-title">SUST IUPC 2022</h4>
-                                <span>Sylhet, Bangladesh</span>
-                            </div>
-                            <div class="education-header">
-                                <span>Ranked 7th</span>
-                                <span>June 2022</span>
-                            </div>
-                            <p class="timeline-text">
-                                
-                            </p>
-                        </li>
-                    
-                </ol>
-            </section>
-
-            <section class="timeline">
-              <div class="title-wrapper">
-                <div class="icon-box">
-                  <ion-icon name="trophy-outline"></ion-icon>
-                </div>
-                <h3 class="h3">Olympiads</h3>
-              </div>
-              <ol class="timeline-list">
-                  
-                      <li class="timeline-item">
-                          <div class="education-header">
-                              <h4 class="h4 timeline-item-title">National Physics Olympiad 2018</h4>
-                              <span>Dhaka, Bangladesh</span>
-                          </div>
-                          <div class="education-header">
-                              <span>Ranked 22nd</span>
-                              <span>January 2018</span>
-                          </div>
-                          <p class="timeline-text">
-                              
-                          </p>
-                      </li>
-                  
-                      <li class="timeline-item">
-                          <div class="education-header">
-                              <h4 class="h4 timeline-item-title">National Physics Olympiad 2016</h4>
-                              <span>Dhaka, Bangladesh</span>
-                          </div>
-                          <div class="education-header">
-                              <span>Ranked 12th</span>
-                              <span>January 2016</span>
-                          </div>
-                          <p class="timeline-text">
-                              
-                          </p>
-                      </li>
-              </ol>
-          </section>
-    
-    </article>
-
-
-
-      <!--
-        - #Research
-      -->
-      <article class="research" data-page="research">
-
-        <header>
-          <h2 class="h2 article-title">Research</h2>
-        </header>
-    
-        <section class="timeline">
-          <ol class="timeline-list">
-    
-            
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">General Purpose Instruction Tuned Model Development for the Bengali Language</h4>
-                <h5 class="h5 timeline-item-subtitle-research">Undergraduate thesis work</h5>
-                
-                    <h5 class="h5 timeline-item-subtitle-research">Supervisor: 
-                        
-                      <a href="https://scholar.google.com/citations?hl=en&user=p-w4hOUAAAAJ">Dr. Rifat Shahriyar</a>
-                            
-                        
-                    </h5>
-                
-                
-                    <h5 class="h5 timeline-item-subtitle-research">Keywords: 
-                        
-                            ML,NLP
-                            
-                    </h5>
-                
-                  
-                <br>
-                <p class="timeline-text-bulletpoint">
-                  In this project we developed a model that can be used for many NLP task in Bengali language. We chose a pretrained model and 
-                fine tuned it for our purpose. The main challenge was to accumulate large set of Bengali data. We collected data from a various source 
-                and curated them using techniques like cosine similarity for good purpose.
-                 The model was trained on a large dataset and achieved good results in many tasks.                </p>
-              </li>
-            
-    
-          </ol>
-    
-        </section>
-      </article>
-
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-    </div>
-
-  </main>
-
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+        </article>
+        <div class="earlier-research">
+          <span class="small-label">Earlier research · Undergraduate thesis</span>
+          <h3>General Purpose Instruction Tuned Model Development for the Bengali Language</h3>
+          <p>Supervised by <a href="https://scholar.google.com/citations?hl=en&amp;user=p-w4hOUAAAAJ">Dr. Rifat Shahriyar</a> at BUET. We collected and curated Bengali datasets and fine-tuned a pretrained model for a range of language tasks.</p>
+        </div>
+      </section>
+
+      <section class="content-section" id="background" aria-labelledby="background-title">
+        <div class="section-heading"><h2 id="background-title">Background</h2></div>
+        <h3 class="subsection-heading">Education</h3>
+        <div class="dated-entry"><p class="entry-date">2025 — present</p><div><h4>PhD in Computer Science</h4><p>University of Utah</p><p class="entry-note">Advisor: <a href="https://elkindi.github.io/">El Kindi Rezig</a></p></div></div>
+        <div class="dated-entry"><p class="entry-date">2019 — 2024</p><div><h4>B.Sc. in Computer Science and Engineering</h4><p>Bangladesh University of Engineering and Technology</p><p class="entry-note">CGPA: 3.88 / 4.00 · Dean’s List</p></div></div>
+        <details class="additional-details"><summary>Earlier education &amp; coursework</summary><div class="details-body"><p><strong>Holy Cross College</strong> · Higher Secondary School Certificate, 2016–2018 · GPA: 5.00 / 5.00</p><p><strong>A.K. High School</strong> · Secondary School Certificate, 2008–2016 · GPA: 5.00 / 5.00</p><p><strong>Selected BUET coursework:</strong> Machine Learning, Artificial Intelligence, Operating Systems, Compiler Design, Computer Architecture, Computer Networks, Computer Security, Computer Graphics, Software Engineering, Bioinformatics, Statistics and Probability, and Linear Algebra.</p></div></details>
+
+        <h3 class="subsection-heading teaching-heading">Teaching experience</h3>
+        <div class="dated-entry"><p class="entry-date">From July 2024</p><div><h4>Lecturer, Computer Science and Engineering</h4><p>United International University</p><p class="entry-note">Course instruction in data structures and algorithms, system analysis and design, artificial intelligence and its sessional course, and computer graphics.</p></div></div>
+        <!-- The previous site listed this appointment as ongoing. Confirm the end date before adding a date range. -->
+
+        <details class="additional-details"><summary>Technical skills</summary><div class="details-body"><p><strong>Languages:</strong> C/C++, Python, Java, Bash, x86 Assembly, SQL, Bison/Flex</p><p><strong>Frameworks &amp; tools:</strong> Node.js, React, OpenGL, JavaFX, Git</p></div></details>
+      </section>
+
+      <section class="content-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading"><h2 id="projects-title">Selected projects</h2><a class="section-link" href="https://github.com/Rabeya-hossain">All repositories <span aria-hidden="true">↗</span></a></div>
+        <div class="project-grid">
+          <article class="project"><p class="project-meta">Python · NumPy <span>2024</span></p><h3><a href="https://github.com/Rabeya-hossain/ML_Lab/tree/main/Neural/1805029">Neural Network from Scratch <span aria-hidden="true">↗</span></a></h3><p>A convolutional neural network implemented from scratch using Python and NumPy.</p></article>
+          <article class="project"><p class="project-meta">Operating systems · xv6 <span>2024</span></p><h3><a href="https://github.com/Rabeya-hossain/OS_xv6">xv6 Operating System <span aria-hidden="true">↗</span></a></h3><p>A paging framework and additional operating system functionality implemented in xv6.</p></article>
+          <article class="project"><p class="project-meta">C++ · OpenGL <span>2023</span></p><h3><a href="https://github.com/Rabeya-hossain/RayTracing">Ray Tracing <span aria-hidden="true">↗</span></a></h3><p>A raster graphics pipeline and ray tracer built using C++ and OpenGL.</p></article>
+          <article class="project"><p class="project-meta">C · Bison · Yacc <span>2022</span></p><h3><a href="https://github.com/Rabeya-hossain/Compiler-310">C Compiler <span aria-hidden="true">↗</span></a></h3><p>A compiler for a subset of C, built from scratch with compiler optimizations.</p></article>
+        </div>
+        <details class="additional-details"><summary>More projects</summary><div class="details-body"><p><a href="https://github.com/Rabeya-hossain/TourOn-Project-2-2"><strong>TourOn</strong></a> · 2022 · A hotel booking and management system built with Node.js, React, and Oracle.</p><p><a href="https://github.com/Rabeya-hossain/SecurityLab"><strong>Security Lab</strong></a> · 2023 · Implementations of AES and RSA, alongside hands-on experiments with web security, malware, and firewalls using Docker.</p></div></details>
+      </section>
+
+      <section class="content-section" id="recognition" aria-labelledby="recognition-title">
+        <div class="section-heading"><h2 id="recognition-title">Recognition</h2></div>
+        <p class="section-intro">A background in competitive programming, with experience at national and regional contests.</p>
+        <ul class="recognition-list">
+          <li><span class="recognition-year">2023, 2022</span><div><h3>National Girls’ Programming Contest, Bangladesh</h3><p><strong>Champion</strong> · 2022 and 2021 editions, held in February 2023 and July 2022.</p></div></li>
+          <li><span class="recognition-year">2023</span><div><h3>ICPC Asia Dhaka Regional Contest</h3><p><strong>5th place</strong> · Dhaka, Bangladesh</p></div></li>
+          <li><span class="recognition-year">2022</span><div><h3>Google Code Jam to I/O for Women</h3><p><strong>Top 150</strong> · Stipend recipient</p></div></li>
+        </ul>
+        <details class="additional-details"><summary>More competitions &amp; olympiads</summary><div class="details-body"><ul><li><strong>44th place</strong>, ICPC Asia West Continent Final Contest 2023, held March 2024.</li><li><strong>7th place</strong>, AUST IUPC 2022, June 2022.</li><li><strong>7th place</strong>, SUST IUPC 2022, June 2022.</li><li><strong>22nd place</strong>, National Physics Olympiad 2018.</li><li><strong>12th place</strong>, National Physics Olympiad 2016.</li></ul></div></details>
+      </section>
+
+      <footer class="site-footer"><p>© <span id="copyright-year">2026</span> Rabeya Hossain</p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></footer>
+    </main>
+  </div>
 </body>
-
 </html>
