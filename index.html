@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Rabeya Hossain, Computer Science PhD student at the University of Utah. Research, publications, and background.">
+  <meta name="description" content="Rabeya Hossain, Computer Science PhD student at the University of Utah. Research, news, and publications.">
   <meta name="theme-color" content="#ffffff">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Rabeya Hossain | University of Utah">
@@ -24,9 +24,8 @@
   <header class="site-header">
     <nav class="container" aria-label="Main navigation">
       <a href="#about">about</a>
+      <a href="#news">news</a>
       <a href="#publications">publications</a>
-      <a href="#background">background</a>
-      <a href="https://github.com/Rabeya-hossain">GitHub</a>
     </nav>
   </header>
 
@@ -37,7 +36,7 @@
         <img class="profile-photo" src="./assets/images/pagePhoto.jpg" alt="Rabeya Hossain" width="120" height="160" fetchpriority="high">
         <div class="bio-text">
           <p>Hi, I’m Rabeya! I’m a PhD student in Computer Science at the <a href="https://www.utah.edu/">University of Utah</a>, working with <a href="https://elkindi.github.io/">Prof. El Kindi Rezig</a>. My current research is part of the CosmicAI project. I work on data quality and data preprocessing, including label outliers in radio astronomy signals and parameter search for preprocessing pipelines.</p>
-          <p>I received my B.Sc. in Computer Science and Engineering from <a href="https://www.buet.ac.bd/">Bangladesh University of Engineering and Technology (BUET)</a>. My undergraduate thesis focused on instruction tuning for general-purpose Bengali language tasks, supervised by <a href="https://scholar.google.com/citations?hl=en&amp;user=p-w4hOUAAAAJ">Dr. Rifat Shahriyar</a>. My teaching experience includes computer science courses at United International University.</p>
+          <p>I received my B.Sc. in Computer Science and Engineering from <a href="https://www.buet.ac.bd/">Bangladesh University of Engineering and Technology (BUET)</a>. My undergraduate thesis focused on instruction tuning for general-purpose Bengali language tasks, supervised by <a href="https://scholar.google.com/citations?hl=en&amp;user=p-w4hOUAAAAJ">Dr. Rifat Shahriyar</a>.</p>
           <p>Outside research, I enjoy traveling, watching movies and series, and problem-solving.</p>
           <p>Find me on <a href="https://www.linkedin.com/in/rabeya-hossain-94499531b/">LinkedIn</a> and <a href="https://github.com/Rabeya-hossain">GitHub</a>, or email me at <a href="mailto:rabeya.hossain@utah.edu">rabeya.hossain@utah.edu</a>.</p>
         </div>
@@ -48,7 +47,7 @@
       <h2 id="news-title"><a href="#news">news</a></h2>
       <table class="news-table">
         <tbody>
-          <tr><th scope="row"><time datetime="2026">2026</time></th><td><a href="#labelscope">LabelScope: Context-Aware Discovery of Label Outliers in Radio Astronomy Signals</a> is a demonstration paper at VLDB 2026.</td></tr>
+          <tr><th scope="row"><time datetime="2026">2026</time></th><td><a href="#labelscope">LabelScope</a> is a demonstration paper at VLDB 2026.</td></tr>
           <tr><th scope="row"><time datetime="2025">2025</time></th><td>Started my PhD in Computer Science at the University of Utah.</td></tr>
         </tbody>
       </table>
@@ -59,62 +58,27 @@
       <ul class="publication-list">
         <li id="labelscope">
           <h3>LabelScope: Context-Aware Discovery of Label Outliers in Radio Astronomy Signals</h3>
-          <p class="authors"><strong>Rabeya Hossain</strong>, Brian Mason, Ryan Loomis, Jeff Phillips, El Kindi Rezig</p>
-          <p class="paper-resources">VLDB 2026 (Demonstration) <span class="resource-divider" aria-hidden="true">|</span> <a href="https://dblp.org/rec/journals/pvldb/HossainMLPR26.html">Publication record</a> <span class="resource-divider" aria-hidden="true">|</span> <a href="https://vldb.org/2026/demonstrations.html">Conference listing</a></p>
+          <div class="paper-line">
+            <span class="authors"><strong>Rabeya Hossain</strong>, Brian Mason, Ryan Loomis, Jeff Phillips, El Kindi Rezig</span>
+            <span class="pub-tag venue-tag">VLDB 2026 · Demo</span>
+            <span class="paper-resources">
+              <a class="resource-link" href="https://dblp.org/rec/journals/pvldb/HossainMLPR26.html" aria-label="LabelScope publication record on DBLP" title="Publication record (DBLP)">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v5h4M9 12h6M9 15h6M9 18h4"/></svg>
+              </a>
+              <a class="resource-link" href="https://vldb.org/2026/demonstrations.html" aria-label="LabelScope conference listing at VLDB 2026" title="Conference listing (VLDB 2026)">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M5 6.5h14M5 17.5h14"/></svg>
+              </a>
+            </span>
+          </div>
         </li>
         <li id="preptune">
           <h3>PrepTune: Data-Aware Parameter Search for Black-Box Data Preprocessing Pipeline Operators</h3>
-          <p class="paper-resources">Under revision</p>
+          <div class="paper-line"><span class="pub-tag revision-tag">Under revision</span></div>
           <!-- Add the confirmed author list, venue, and public paper link when available. -->
         </li>
       </ul>
     </section>
 
-    <section id="background" aria-labelledby="background-title">
-      <h2 id="background-title"><a href="#background">background</a></h2>
-      <h3 class="subheading">Education</h3>
-      <ul class="plain-list">
-        <li><strong>PhD in Computer Science</strong>, University of Utah, 2025–present.<br>Advisor: <a href="https://elkindi.github.io/">El Kindi Rezig</a>.</li>
-        <li><strong>B.Sc. in Computer Science and Engineering</strong>, BUET, 2019–2024.<br>CGPA: 3.88/4.00. Dean’s List.</li>
-      </ul>
-      <h3 class="subheading">Teaching</h3>
-      <p><strong>Lecturer, Computer Science and Engineering</strong>, United International University. Appointment began July 2024.</p>
-      <p>Course instruction in data structures and algorithms, system analysis and design, artificial intelligence and its sessional course, and computer graphics.</p>
-      <h3 class="subheading">Undergraduate research</h3>
-      <p><strong>General Purpose Instruction Tuned Model Development for the Bengali Language.</strong> We collected and curated Bengali datasets and fine-tuned a pretrained model for a range of language tasks.</p>
-      <details>
-        <summary>Earlier education, coursework, and technical skills</summary>
-        <p><strong>Holy Cross College:</strong> Higher Secondary School Certificate, 2016–2018. GPA: 5.00/5.00.</p>
-        <p><strong>A.K. High School:</strong> Secondary School Certificate, 2008–2016. GPA: 5.00/5.00.</p>
-        <p><strong>Selected coursework:</strong> Machine Learning, Artificial Intelligence, Operating Systems, Compiler Design, Computer Architecture, Computer Networks, Computer Security, Computer Graphics, Software Engineering, Bioinformatics, Statistics and Probability, and Linear Algebra.</p>
-        <p><strong>Languages:</strong> C/C++, Python, Java, Bash, x86 Assembly, SQL, Bison/Flex.</p>
-        <p><strong>Frameworks and tools:</strong> Node.js, React, OpenGL, JavaFX, Git.</p>
-      </details>
-    </section>
-
-    <section id="projects" aria-labelledby="projects-title">
-      <h2 id="projects-title"><a href="#projects">selected projects</a></h2>
-      <ul class="plain-list">
-        <li><a href="https://github.com/Rabeya-hossain/ML_Lab/tree/main/Neural/1805029">Neural Network from Scratch</a> (2024). A convolutional neural network implemented using Python and NumPy.</li>
-        <li><a href="https://github.com/Rabeya-hossain/OS_xv6">xv6 Operating System</a> (2024). A paging framework and additional operating system functionality.</li>
-        <li><a href="https://github.com/Rabeya-hossain/RayTracing">Ray Tracing</a> (2023). A raster graphics pipeline and ray tracer using C++ and OpenGL.</li>
-        <li><a href="https://github.com/Rabeya-hossain/Compiler-310">C Compiler</a> (2022). A compiler for a subset of C, built with Bison and Yacc.</li>
-        <li><a href="https://github.com/Rabeya-hossain/TourOn-Project-2-2">TourOn</a> (2022). A hotel booking and management system using Node.js, React, and Oracle.</li>
-        <li><a href="https://github.com/Rabeya-hossain/SecurityLab">Security Lab</a> (2023). Implementations of AES and RSA, and experiments with web security, malware, and firewalls.</li>
-      </ul>
-    </section>
-
-    <section id="recognition" aria-labelledby="recognition-title">
-      <h2 id="recognition-title"><a href="#recognition">awards &amp; achievements</a></h2>
-      <ul class="plain-list">
-        <li><strong>Champion</strong>, National Girls’ Programming Contest, Bangladesh: 2022 and 2021 editions, held in February 2023 and July 2022.</li>
-        <li><strong>5th place</strong>, ICPC Asia Dhaka Regional Contest 2023.</li>
-        <li><strong>Top 150 and stipend recipient</strong>, Google Code Jam to I/O for Women 2022.</li>
-        <li><strong>44th place</strong>, ICPC Asia West Continent Final Contest 2023, held in March 2024.</li>
-        <li><strong>7th place</strong>, AUST IUPC 2022 and SUST IUPC 2022.</li>
-        <li><strong>22nd place</strong>, National Physics Olympiad 2018; <strong>12th place</strong>, National Physics Olympiad 2016.</li>
-      </ul>
-    </section>
     <footer>© <span id="copyright-year">2026</span> Rabeya Hossain · <a href="#top">Back to top</a></footer>
   </main>
 </body>
