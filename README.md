@@ -4,7 +4,7 @@ A responsive, accessible academic profile for GitHub Pages. Uses plain HTML, CSS
 
 - `index.html`: short biography, contact links, news, and publications.
 - `assets/css/style.css`: layout, colors, responsive breakpoints, and print styles.
-- `assets/js/script.js`: copyright year.
+- `assets/js/script.js`: mobile navigation and copyright year.
 - `assets/images/pagePhoto.jpg`: existing profile photograph.
 
 Open `index.html` directly, or preview over HTTP from the repository root:
@@ -23,4 +23,6 @@ Edit the list items inside `#publications` to add publications. LabelScope's tit
 
 Publication entries use italic authors (Rabeya's name in bold), compact venue/status badges, and resource icons with accessible names and hover labels. LabelScope currently links to its DBLP record (document icon) and conference listing (globe icon). Add PDF, code, poster, slides, video, or demo icons when the corresponding public links are available; omit unavailable resources.
 
-The layout follows [Whanhee Cho’s academic page](https://whnhch.github.io/): a white page, blue links, a photo beside the biography, and simple news and publication lists. The portrait and headings are kept smaller to match Rabeya’s preference.
+The layout follows the measured desktop and mobile styles of [Whanhee Cho’s academic page](https://whnhch.github.io/): Roboto at 16px/24px, 40px and 32px headings, a centered 1100px container with 15px inner gutters, a floated 20% portrait, fixed navigation, and a fixed dark footer. Publication entries use the reference’s title sizing, inline italic authors, venue badges, and small resource icons. The page contains only Rabeya’s biography, news, and publications.
+
+The stylesheet and script URLs include a version query so browsers fetch the matching assets after publication. Increase this version when making later style or script changes. Local edits do not change the public website until committed and pushed to the GitHub Pages branch.
