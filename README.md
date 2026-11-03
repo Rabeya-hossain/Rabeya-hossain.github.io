@@ -6,6 +6,9 @@ A responsive, accessible academic profile for GitHub Pages. Uses plain HTML, CSS
 - `assets/css/style.css`: layout, colors, responsive breakpoints, and print styles.
 - `assets/js/script.js`: mobile navigation and copyright year.
 - `assets/images/pagePhoto.jpg`: existing profile photograph.
+- `assets/pdf/Rabeya_Hossain_CV.pdf`: CV opened by the navigation link; replace this file to update it.
+
+LinkedIn, GitHub, and email appear as labeled icon links below the portrait.
 
 Open `index.html` directly, or preview over HTTP from the repository root:
 

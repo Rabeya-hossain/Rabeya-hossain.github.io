@@ -31,6 +31,10 @@ h2 a, h2 a:hover { color: inherit; }
 p { margin: 0 0 16px; }
 .profile { float: left; width: 20%; margin: 0 16px 16px 0; }
 .profile-photo { display: block; width: 100%; height: auto; aspect-ratio: 214 / 244; object-fit: cover; object-position: center 40%; border-radius: 4px; box-shadow: 0 2px 5px #00000029, 0 2px 10px #0000001f; }
+.profile-links { display: flex; align-items: center; justify-content: center; gap: 12px; margin-top: 10px; }
+.profile-links a { display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 28px; min-width: 0; }
+.profile-links svg { display: block; width: 22px; height: 22px; fill: currentColor; }
+.profile-links .email-icon { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
 .bio-text::after { display: block; clear: both; content: ''; }
 .news-table { width: 100%; margin: 8px 0 16px; border-collapse: collapse; color: #212529; }
 .news-table th, .news-table td { padding: 9.6px 4.8px; vertical-align: top; text-align: left; }
@@ -60,6 +64,9 @@ footer a:hover { color: #fff; text-decoration: underline; }
   .site-header.is-open .navigation-links { display: flex; }
   .news-table th { width: 20%; }
   .bio-text a { overflow-wrap: anywhere; }
+  .profile-links { gap: 0; margin-top: 8px; }
+  .profile-links a { width: 33.333%; height: 24px; }
+  .profile-links svg { width: 16px; height: 16px; }
 }
 @media print {
   html { overflow-y: visible; }

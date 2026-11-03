@@ -20,6 +20,7 @@ navigation.addEventListener('click', event => {
   const link = event.target.closest('a');
   if (!link) return;
   closeMenu();
+  if (!link.getAttribute('href').startsWith('#')) return;
   for (const item of navigation.querySelectorAll('a')) {
     if (item === link) item.setAttribute('aria-current', 'location');
     else item.removeAttribute('aria-current');
